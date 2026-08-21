@@ -15,3 +15,12 @@ console.log(process.on()); // Escucha eventos del proceso
 console.log(process.stdin); // Despliega el flujo de entrada estándar
 console.log(process.stdout); // Despliega el flujo de salida estándar
 */
+console.log("Inicio");
+setTimeout(function(){
+    console.log("Proceso en ejecución");
+}, 1000);
+console.log("hola");
+setTimeout(function(){
+    console.log("Proceso terminado");
+}, 2000);
+console.log("Fin"); 
