@@ -41,4 +41,3 @@ calculate(10, 5, multiply); // 50
 calculate(10, 5, divide); // 2
 calculate(10, 5, add); // 15
 calculate(10, 5, subtract); // 5
-
