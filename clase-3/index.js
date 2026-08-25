@@ -41,3 +41,12 @@ calculate(10, 5, multiply); // 50
 calculate(10, 5, divide); // 2
 calculate(10, 5, add); // 15
 calculate(10, 5, subtract); // 5
+
+const resultMultiply = calculate(10, 5, multiply);
+console.log(resultMultiply); // 50 
+const resultDivide = calculate(10, 5, divide);
+console.log(resultDivide); // 2
+const resultAdd = calculate(10, 5, add);
+console.log(resultAdd); // 15
+const resultSubtract = calculate(10, 5, subtract);
+console.log(resultSubtract); // 5
