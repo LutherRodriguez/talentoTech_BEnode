@@ -22,18 +22,15 @@ const result = subtract();
 console.log(result);
 */
 // Función con parámetros: Se pueden pasar valores a las funciones mediante parámetros.
-/*function multiply(a, b) {
-    return a * b;
-}
-function divide(a, b) {
-    return a / b;
-}
-function add(a, b) {
-    return a + b;
-}
-function subtract(a, b) {
-    return a - b;
-}
+const multiply =(a, b) => a * b;
+
+const divide = (a, b) => a / b;
+
+const add = (a, b) => a + b;
+
+const subtract = (a, b) =>a - b;
+
+// creo una función de orden superior que recibe otra función como parámetro (callback)
 function calculate(a, b, operation) {
     return operation(a, b);
 }
@@ -50,7 +47,9 @@ const resultAdd = calculate(10, 5, add);
 console.log(resultAdd); // 15
 const resultSubtract = calculate(10, 5, subtract);
 console.log(resultSubtract); // 5
-*/
+
+//-----------------------------------
+/*
 // Arrays
 const frutas = ['manzana', 'pera', 'frutilla', 'durazno'];
 console.log(frutas[0]); // manzana
@@ -86,3 +85,4 @@ frutas.forEach((fruta) => console.log(fruta)); // manzana, naranja, mandarina, d
 // .map: Crea un nuevo array con los resultados de la función aplicada a cada elemento del array original
 const frutasMayusculas = frutas.map((fruta) => fruta.toUpperCase());
 console.log(frutasMayusculas); // ['MANZANA', 'NARANJA', 'MANDARINA', 'DURAZNO']
+*/
