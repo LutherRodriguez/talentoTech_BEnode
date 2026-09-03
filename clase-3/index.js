@@ -21,6 +21,8 @@ const subtract = () => 20 - 10;
 const result = subtract();
 console.log(result);
 */
+//--------------------------------
+/*
 // Función con parámetros: Se pueden pasar valores a las funciones mediante parámetros.
 const multiply =(a, b) => a * b;
 
@@ -47,7 +49,7 @@ const resultAdd = calculate(10, 5, add);
 console.log(resultAdd); // 15
 const resultSubtract = calculate(10, 5, subtract);
 console.log(resultSubtract); // 5
-
+*/
 //-----------------------------------
 /*
 // Arrays
@@ -86,3 +88,26 @@ frutas.forEach((fruta) => console.log(fruta)); // manzana, naranja, mandarina, d
 const frutasMayusculas = frutas.map((fruta) => fruta.toUpperCase());
 console.log(frutasMayusculas); // ['MANZANA', 'NARANJA', 'MANDARINA', 'DURAZNO']
 */
+
+const precios = [100, 200, 300, 400, 500];
+console.log(precios.length); // 5
+function mostrar(item) {
+    console.log(item);
+}
+precios.forEach(mostrar);// 100, 200, 300, 400, 500
+// Expresada
+precios.forEach((precio) => console.log(precio));// 100, 200, 300, 400, 500
+
+function calcularPrecioFinal(precio) {
+    return precio * 1.21;
+}
+const preciosFinales = precios.map(calcularPrecioFinal);
+console.log(preciosFinales); // [121, 242, 363, 484, 605]
+
+function par_o_impar(precio) {
+    if (precio % 2 == 0) return "par";
+    return "impar"; 
+}
+
+const preciosParImpar = preciosFinales.map(par_o_impar);
+console.log(preciosParImpar); // ['impar', 'par', 'impar', 'par', 'impar']
