@@ -11,10 +11,10 @@ const autos = [
   { marca: "Nissan", modelo: "Altima", año: 2015, color: "Rojo" },
   { marca: "Hyundai", modelo: "Elantra", año: 2019, color: "Azul" },
   { marca: "Kia", modelo: "Optima", año: 2021, color: "Blanco" },
-  { marca: "Subaru", modelo: "Outback", año: 2020, color: "Gris" }
+  { marca: "Subaru", modelo: "Outback", año: 2020, color: "Gris" },
 ];
 // 2. Usa in método de array para recorrer la lista e imprime por consola todos los datos de los automoviles cuyo año sea mayor a 2018
-const autosFiltrados = autos.filter(auto => auto.año > 2018);
+const autosFiltrados = autos.filter((auto) => auto.año > 2018);
 console.log(autosFiltrados);
 
 // 3. Crea una función que recorra el array. Con el operador destructuring dentro de la función para obtener el color de cada auto. La función debe aceptar un color como parámetro y devolver por consola cuántos automóviles tienen ese color
@@ -32,4 +32,4 @@ contarAutosPorColor("Rojo");
 contarAutosPorColor("Azul");
 contarAutosPorColor("Negro");
 contarAutosPorColor("Blanco");
-contarAutosPorColor("Gris");    
+contarAutosPorColor("Gris");
