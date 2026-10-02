@@ -1,0 +1,13 @@
+{
+  "name": "pre-entrega",
+  "version": "1.0.0",
+  "description": "Curso Backend - Pre Entrega",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Luther Rodríguez",
+  "license": "ISC",
+  "type": "module"
+}
